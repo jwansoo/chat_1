@@ -1,0 +1,9 @@
+ai key= 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
+
+
+curl http://localhost:11434/api/generate \
+-d '{
+  "model":"llama3.1",
+  "prompt":"Tell me a joke",
+  "stream":false
+}'
